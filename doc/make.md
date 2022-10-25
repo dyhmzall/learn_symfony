@@ -11,3 +11,7 @@
 
 > symfony console make:migration
 
+#### создать подписчика
+
+> symfony console make:subscriber TwigEventSubscriber
+
