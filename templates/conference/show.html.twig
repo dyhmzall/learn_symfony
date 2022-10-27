@@ -22,11 +22,11 @@
             <p>{{ comment.text }}</p>
 
             {% if previous >= 0 %}
-                <a href="{{ path('conference', { id: conference.id, offset: previous}) }}">Предыдущие</a>
+                <a href="{{ path('conference', { slug: conference.slug, offset: previous}) }}">Предыдущие</a>
             {% endif %}
 
             {% if next < comments|length %}
-                <a href="{{ path('conference', { id: conference.id, offset: next}) }}">Следующие</a>
+                <a href="{{ path('conference', { slug: conference.slug, offset: next}) }}">Следующие</a>
             {% endif %}
         {% endfor %}
     {% else %}
