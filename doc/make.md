@@ -15,3 +15,6 @@
 
 > symfony console make:subscriber TwigEventSubscriber
 
+#### создать тип формы
+
+> symfony console make:form CommentFormType Comment
