@@ -16,3 +16,6 @@
 
 > symfony console doctrine:migrations:migrate
 
+#### выполнить sql команду
+
+> symfony run psql -c "SELECT * FROM admin"

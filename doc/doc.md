@@ -12,3 +12,8 @@ https://127.0.0.1:8000
 #### деплой
 
 > symfony cloud:deploy
+
+#### посмотреть все роуты проекта
+
+> symfony console debug:router
+

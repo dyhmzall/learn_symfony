@@ -18,3 +18,12 @@
 #### создать тип формы
 
 > symfony console make:form CommentFormType Comment
+
+#### создать и связать сущность с системой аутентификации
+
+>  symfony console make:user Admin
+
+#### создать авторизацию
+
+> symfony console make:auth
+
