@@ -2,7 +2,6 @@
 
 > symfony console make:controller ConferenceController
 
-
 #### создать сущность
 
 > symfony console make:entity Conference
@@ -26,4 +25,8 @@
 #### создать авторизацию
 
 > symfony console make:auth
+
+#### создания модульного теста
+
+> symfony console make:test TestCase SpamCheckerTest
 

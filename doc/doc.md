@@ -17,3 +17,7 @@ https://127.0.0.1:8000
 
 > symfony console debug:router
 
+#### установить phpunit
+
+> symfony composer req phpunit --dev
+
