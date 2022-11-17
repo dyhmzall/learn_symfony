@@ -21,3 +21,7 @@ https://127.0.0.1:8000
 
 > symfony composer req phpunit --dev
 
+#### установка компонента messenger
+
+> symfony composer req doctrine-messenger
+
