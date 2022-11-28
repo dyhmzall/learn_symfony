@@ -29,3 +29,7 @@ https://127.0.0.1:8000
 
 > symfony composer req doctrine-messenger
 
+#### установка компонента workflow
+
+> symfony composer req workflow
+
