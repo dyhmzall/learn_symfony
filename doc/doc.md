@@ -9,6 +9,10 @@ docker --cloud
 
 https://127.0.0.1:8000
 
+#### смотреть логи сервера онлайн
+
+> symfony server:log
+
 #### деплой
 
 > symfony cloud:deploy
